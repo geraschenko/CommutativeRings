@@ -1,0 +1,64 @@
+\documentclass{article}
+
+%% We'll use these packages.
+%% If you really NEED some other package, let me know
+\usepackage{amsmath,
+            latexsym,
+            amssymb}
+\usepackage[all]{xy}
+
+%% Here are some macros that you can use.
+%% If you feel like there is some other macro that should be here, let me know
+ \newcommand\<{\triangleleft}
+ \renewcommand{\a}{\ensuremath{\mathfrak{a}}}
+ \DeclareMathOperator{\ann}{ann}
+ \DeclareMathOperator{\ass}{Ass}
+ \DeclareMathOperator{\aut}{Aut}
+ \newcommand\C{\mathcal{C}}
+ \newcommand{\CC}{\ensuremath{\mathbb{C}}}
+ \newcommand{\D}{\ensuremath{\mathcal{D}}}
+ \DeclareMathOperator{\End}{End}
+ \newcommand{\F}{\ensuremath{\mathcal{F}}}
+ \newcommand{\FF}{\ensuremath{\mathbb{F}}}
+ \newcommand{\HH}{\ensuremath{\mathbb{H}}}
+ \let\hom\relax % kills the old hom
+ \DeclareMathOperator{\hom}{Hom}
+ \newcommand{\id}{\mathrm{Id}}
+ \DeclareMathOperator{\im}{im}
+ \newcommand{\m}{\ensuremath{\mathfrak{m}}}
+ \DeclareMathOperator{\Max}{Max}
+ \DeclareMathOperator{\Min}{Min}
+ \newcommand{\MM}{\ensuremath{\mathbb{M}}}
+ \DeclareMathOperator{\nil}{Nil}
+ \newcommand\p{\mathfrak{p}}
+ \renewcommand\P{\mathcal{P}}
+ \newcommand\q{\mathfrak{q}}
+ \newcommand{\QQ}{\ensuremath{\mathbb{Q}}}
+ \DeclareMathOperator{\rad}{rad}
+ \newcommand{\RR}{\ensuremath{\mathbb{R}}}
+ \newcommand{\smaltrix}[4]{\ensuremath{\left( %
+            \begin{smallmatrix} #1 & #2 \\ #3 & #4 \end{smallmatrix} \right)}}
+ \DeclareMathOperator{\spec}{Spec}
+ \DeclareMathOperator{\supp}{Supp}
+ \newcommand{\V}{\mathcal{V}}
+ \newcommand\Z{\mathcal{Z}}
+ \newcommand{\ZZ}{\ensuremath{\mathbb{Z}}}
+
+ \newenvironment{exercise}[1]{\begin{trivlist}\item
+                \textbf{Exercise #1.}\it}{\end{trivlist}}
+ \newenvironment{solution}[1]{\begin{trivlist}\item[]\hspace*{-.5em}[#1]}
+                {\hspace*{\fill} $\blacksquare$\end{trivlist}}
+
+\begin{document}
+
+ \begin{exercise}{XXXX}
+ %% replace XXXX with the exercise number, like I.20
+  Statement of the exercise.
+ \end{exercise}
+
+ \begin{solution}{YYYY}
+ %% replace YYYY with some string identifying you, like anton@math
+   Your solution goes here.
+ \end{solution}
+
+\end{document}
